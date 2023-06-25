@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transicao</title>
+    <style>
+        body {
+            background-color: darkgrey;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .coracao{
+    width: 50em;
+    height: 40em;
+    animation-duration: 1s;
+    animation-name: pulsando;
+    animation-iteration-count: infinite;
+}
+
+    @keyframes pulsando {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }  
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Descodificadas</h1> 
+    <h2>Eu amo tecnologia!</h2>
+
+    <img src="/darkheart.jpg" class="coracao">
+</body>
+</html>
